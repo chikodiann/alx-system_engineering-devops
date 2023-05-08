@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red231\green231\blue237;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c92549\c92549\c94510;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 When you type "https://www.google.com" into your browser and press Enter, a series of events take place in order to display the webpage on your screen. Let's break it down step by step.\
+\
+DNS Request:\
+The first thing that happens is a Domain Name System (DNS) request is sent out. DNS is like a phone book for the internet. It converts the domain name (www.google.com) into an IP address (216.58.194.174), which is the actual address where the website resides. Your browser sends a request to your ISP's DNS server to find the IP address of www.google.com.\
+\
+TCP/IP:\
+Once your browser has the IP address, it initiates a Transmission Control Protocol/Internet Protocol (TCP/IP) connection to the server at that IP address. TCP/IP is the set of communication protocols used to connect devices on the internet. It breaks the data down into packets, and these packets are sent and received between your computer and the server.\
+\
+Firewall:\
+Before any data is exchanged, the server's firewall checks to make sure that the request is legitimate and not malicious. A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.\
+\
+HTTPS/SSL:\
+\pard\tx57\tx28562\pardeftab720\partightenfactor0
+\cf2 Assuming the request passes through the firewall, the server will then establish a secure Hypertext Transfer Protocol Secure (HTTPS) connection using Secure Socket Layer (SSL) or Transport Layer Security (TLS) encryption. HTTPS is a protocol for secure communication over the internet, and SSL/TLS is the technology that provides the encryption and decryption of data transmitted over the internet.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+Load-balancer:\
+If there are multiple servers available to handle the request, a load-balancer will distribute the request across these servers to ensure that the load is balanced and no single server becomes overloaded. A load-balancer is a device that evenly distributes network traffic across multiple servers.\
+\
+Web server:\
+Once the request has been received by the server, it is passed to the web server, which is responsible for handling HTTP requests. The web server will locate the requested resource, which in this case is the Google homepage, and return it to the browser as an HTTP response.\
+\
+Application server:\
+If the request requires data from a database or other back-end system, the web server will send the request to an application server, which will handle the request and provide the necessary data. An application server is a server that is dedicated to running specific applications or services.\
+\
+Database:\
+If the request requires data from a database, the application server will connect to the database and retrieve the necessary data. The database is a repository for data that can be queried and manipulated by other applications or services.\
+In conclusion, when you type "https://www.google.com" into your browser and press Enter, a complex series of events takes place to retrieve and display the webpage. The DNS request, TCP/IP connection, firewall, HTTPS/SSL encryption, load-balancer, web server, application server, and database all work together seamlessly to deliver the requested resource to your browser.}
