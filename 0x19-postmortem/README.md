@@ -1,6 +1,7 @@
 Postmortem
 
 ShopAll Web Stack Outage
+![Postmortem meme](postmortem img.jpeg)
 
 Issue Summary:
 Duration: Start Time: 2023-06-01 14:00 UTC, End Time: 2023-06-01 16:30 UTC
